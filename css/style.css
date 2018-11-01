@@ -1,0 +1,97 @@
+@font-face {
+    font-family: Ubuntu Bold;
+    src: url("../fonts/ubuntu/Ubuntu/Ubuntu-Bold.ttf");
+}
+
+@font-face {
+    font-family: OpenSans Light;
+    src: url("../fonts/open sans/Open Sans/OpenSans-Light.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+#container {
+    min-height:100%;
+    max-width: 1366px;
+    width: 1366px;
+    position:relative;
+    margin: 0 auto;
+}
+
+header {
+    position: fixed;
+    max-width: 253px;
+    width: 253px;
+    height: 100vh;
+    background-color: #ffffff;
+    padding: 25px 10px 25px 28px;
+    z-index: 1;
+}
+
+header .logo {
+    margin-bottom: 55px;
+}
+
+header .menu,
+header .sub-menu,
+header .more-menu {
+    list-style: none;
+}
+
+header .menu {
+    font-family: Ubuntu Bold, sans-serif;
+    margin-bottom: 85px;
+}
+
+header .menu > li {
+    margin-bottom: 40px;
+    font-size: 14px;
+}
+
+header .menu a,
+header .more-menu a {
+    text-decoration: none;
+    color: #071d49;
+}
+
+header .menu > li a:active,
+header .menu > li a:hover {
+    color: #e87722;
+}
+
+header .sub-menu {
+    margin-top: 33px;
+    margin-left: 28px;
+}
+
+header .more-menu,
+header .sub-menu {
+    font-family: OpenSans Light, sans-serif;
+    font-size: 11px;
+    line-height: 22px;
+}
+
+main {
+    /* Height of the footer */
+    padding: 10px 10px 220px;
+    margin-left: 253px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 220px;   /* Height of the footer */
+    background: #071d49;
+}
