@@ -125,13 +125,10 @@ footer {
 }
 
 main section {
-    height: 758px;
+    height: 768px;
     display: flex;
+    position: relative;
     flex-direction: row;
-}
-
-main section > div {
-
 }
 
 main .section-image,
@@ -179,7 +176,7 @@ main .section-content .fon-text {
 
 main .section-image.infrastructure {
     background: url("../img/aron-van-de-pol-115112-unsplash.jpg") no-repeat center center;
-    background-size: auto 758px;
+    background-size: auto 768px;
 }
 main .button {
     display: inline-block;
@@ -275,4 +272,28 @@ footer .logos img:not(:last-child) {
     to {
         stroke-dashoffset: 0;
     }
+}
+
+/* SVG */
+
+.solution-svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    fill: none;
+    stroke: #e87722;
+    stroke-width: 8;
+    stroke-dasharray: 1204;
+    stroke-dashoffset: 1204;
+
+}
+
+@keyframes animate-solution {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+.solution-svg.draw {
+    animation: animate-solution 3s linear forwards;
 }

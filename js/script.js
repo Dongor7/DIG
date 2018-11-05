@@ -7,3 +7,7 @@ links.forEach(link => {
         this.parentElement.classList.add('active');
     })
 });
+
+setTimeout(() => {
+    document.querySelector('.solution-svg').classList.add('draw');
+}, 2000);
