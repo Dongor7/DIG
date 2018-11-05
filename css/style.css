@@ -83,15 +83,58 @@ header .sub-menu {
 }
 
 main {
-    /* Height of the footer */
+    /*min-height: 978px;*/
     padding: 10px 10px 220px;
-    margin-left: 253px;
+}
+
+main,
+footer {
+    margin-left: 253px
 }
 
 footer {
     position: absolute;
+    display: flex;
+    flex-direction: row;
     bottom: 0;
-    width: 100%;
-    height: 220px;   /* Height of the footer */
+    width: 1113px;
+    height: 220px;
     background: #071d49;
+    padding: 50px 45px 0 67px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+footer > div {
+
+}
+
+footer .contacts {
+    margin-right: 86px;
+}
+
+footer .contacts .content {
+    font-family: OpenSans Light, sans-serif;
+}
+
+footer .location {
+    margin-right: 15px;
+}
+
+footer .title {
+    margin-bottom: 25px;
+    font-family: Ubuntu Bold, sans-serif;
+}
+
+footer > div:last-child .title {
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+@media screen and (max-height: 1000px) {
+    /*header {
+        position: relative;
+        float: left;
+        height: 978px;
+    }*/
 }
