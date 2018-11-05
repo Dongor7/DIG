@@ -8,6 +8,16 @@
     src: url("../fonts/open sans/Open Sans/OpenSans-Light.ttf");
 }
 
+@font-face {
+    font-family: OpenSans SemiBold;
+    src: url("../fonts/open sans/Open Sans/OpenSans-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: OpenSans Regular;
+    src: url("../fonts/open sans/Open Sans/OpenSans-Regular.ttf");
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -34,9 +44,9 @@ header {
     max-width: 253px;
     width: 253px;
     height: 100vh;
-    background-color: #ffffff;
     padding: 25px 10px 25px 28px;
     z-index: 1;
+    background-color: #e5e1e6;
 }
 
 header .logo {
@@ -66,8 +76,30 @@ header .more-menu a {
 }
 
 header .menu > li a:active,
-header .menu > li a:hover {
+header .menu > li a:hover,
+header .more-menu > li a:hover {
     color: #e87722;
+}
+
+header .sub-menu li:before {
+    content: '';
+    position: absolute;
+    height: 5px;
+    background-color: #e87722;
+    width: 0;
+    margin-top: calc(11px - 2.5px);
+    left: 0;
+    transition: all 200ms;
+}
+
+header .sub-menu li.active:before {
+    content: '';
+    position: absolute;
+    height: 5px;
+    background-color: #e87722;
+    width: 44px;
+    margin-top: calc(11px - 2.5px);
+    left: 0;
 }
 
 header .sub-menu {
@@ -84,12 +116,83 @@ header .sub-menu {
 
 main {
     /*min-height: 978px;*/
-    padding: 10px 10px 220px;
+    padding-bottom: 220px;
 }
 
 main,
 footer {
     margin-left: 253px
+}
+
+main section {
+    height: 758px;
+    display: flex;
+    flex-direction: row;
+}
+
+main section > div {
+
+}
+
+main .section-image,
+main .section-content {
+    height: 100%;
+}
+
+main .section-image {
+    width: 578px;
+}
+
+main .section-content {
+    width: 535px;
+    padding: 40px 50px 40px 35px;
+}
+
+main .section-content > .title {
+    margin-left: 35px;
+    margin-bottom: 45px;
+    color: #e87722;
+    font-family: OpenSans SemiBold, sans-serif;
+    font-size: 24px;
+}
+
+main .section-content .description {
+    position: relative;
+    padding-left: 60px;
+    margin-bottom: 65px;
+}
+
+main .section-content .description .text {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 224px;
+    font-family: OpenSans SemiBold, sans-serif;
+    font-size: 17px;
+}
+
+main .section-content .fon-text {
+    font-family: Ubuntu Bold, sans-serif;
+    font-size: 57px;
+    color: #cdcaca;
+}
+
+main .section-image.infrastructure {
+    background: url("../img/aron-van-de-pol-115112-unsplash.jpg") no-repeat center center;
+    background-size: auto 758px;
+}
+main .button {
+    display: inline-block;
+    padding: 15px 20px;
+    font-size: 14px;
+    font-family: Ubuntu Bold, sans-serif;
+    color: #ffffff;
+    background-color: #071d49;
+}
+
+main .button:hover {
+    cursor: pointer;
+    background-color: #e87722;
 }
 
 footer {
@@ -114,7 +217,7 @@ footer .contacts {
 }
 
 footer .contacts .content {
-    font-family: OpenSans Light, sans-serif;
+    font-family: OpenSans Regular, sans-serif;
 }
 
 footer .location {
@@ -131,10 +234,45 @@ footer > div:last-child .title {
     margin-left: 20px;
 }
 
-@media screen and (max-height: 1000px) {
-    /*header {
+footer .logos {
+    display: flex;
+    align-items: center;
+}
+
+footer .logos > div {
+    display: inline-block;
+    width: 100px;
+}
+
+footer .logos img {
+    display: block;
+    margin: 0 auto;
+}
+
+footer .logos img:not(:last-child) {
+    margin-bottom: 11px;
+}
+
+/*@media screen and (max-height: 730px) {
+    header {
         position: relative;
         float: left;
         height: 978px;
-    }*/
+    }
+}*/
+
+
+.path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 5s linear alternate infinite;
+}
+
+@keyframes dash {
+    from {
+        stroke-dashoffset: 1000;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
 }
