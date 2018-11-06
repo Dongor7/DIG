@@ -9,5 +9,13 @@ links.forEach(link => {
 });
 
 setTimeout(() => {
-    document.querySelector('.solution-svg').classList.add('draw');
+    document.querySelector('.infrastructure-svg').classList.add('draw');
 }, 2000);
+
+document.querySelector('.solutions-link a').addEventListener('click', function () {
+    document.querySelector('.solutions-svg').classList.add('draw');
+});
+
+document.querySelector('.work-with-link a').addEventListener('click', function () {
+    document.querySelector('.work-with-svg').classList.add('draw');
+});
