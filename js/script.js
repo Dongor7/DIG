@@ -19,22 +19,22 @@ for(let i = 0; i < links.length; i++){
 });*/
 
 setTimeout(function() {
-    document.querySelector('.infrastructure-svg').classList.add('draw');
+    document.querySelector('.infrastructure-svg').className += ' draw';
 }, 2000);
 
 window.onscroll = function() {
     if(window.pageYOffset + document.body.clientHeight > 800) {
-        document.querySelector('.solutions-svg').classList.add('draw');
+        document.querySelector('.solutions-svg').className += 'draw';
     }
     if(window.pageYOffset + document.body.clientHeight > 1600) {
-        document.querySelector('.work-with-svg').classList.add('draw');
+        document.querySelector('.work-with-svg').className += 'draw';
     }
 };
 
 document.querySelector('.solutions-link a').addEventListener('click', function () {
-    document.querySelector('.solutions-svg').classList.add('draw');
+    document.querySelector('.solutions-svg').className += 'draw';
 });
 
 document.querySelector('.work-with-link a').addEventListener('click', function () {
-    document.querySelector('.work-with-svg').classList.add('draw');
+    document.querySelector('.work-with-svg').className += 'draw';
 });
