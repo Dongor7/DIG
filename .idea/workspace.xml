@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7efc0bd7-4c41-4716-9942-7997d879103a" name="Default Changelist" comment="feat: add header and footer without content">
-      <change afterPath="$PROJECT_DIR$/.idea/DIG.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7efc0bd7-4c41-4716-9942-7997d879103a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -22,33 +18,36 @@
     <session id="-2017229133">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.15" value="2" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="1851" />
-          <entry key="html" value="1454" />
-          <entry key="js" value="343" />
-          <entry key="txt" value="240" />
+          <entry key="html" value="2173" />
+          <entry key="js" value="427" />
+          <entry key="txt" value="331" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="1851" />
-          <entry key="HTML" value="1454" />
-          <entry key="JavaScript" value="343" />
-          <entry key="PLAIN_TEXT" value="240" />
+          <entry key="HTML" value="2173" />
+          <entry key="JavaScript" value="427" />
+          <entry key="PLAIN_TEXT" value="331" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="1" />
+          <entry key="html" value="1" />
           <entry key="jpg" value="1" />
           <entry key="js" value="1" />
           <entry key="png" value="2" />
@@ -57,6 +56,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
+          <entry key="HTML" value="1" />
           <entry key="Image" value="3" />
           <entry key="JavaScript" value="1" />
         </counts>
@@ -69,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="53" />
+              <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -77,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="210" column="1" lean-forward="true" selection-start-line="210" selection-start-column="1" selection-end-line="210" selection-end-column="1" />
+            <state relative-caret-position="3150">
+              <caret line="210" column="1" selection-start-line="210" selection-start-column="1" selection-end-line="210" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -86,8 +86,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="330">
+              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/card.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="68" column="9" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -97,9 +106,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -111,6 +120,7 @@
       <list>
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/card.html" />
         <option value="$PROJECT_DIR$/js/script.js" />
       </list>
     </option>
@@ -133,6 +143,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -140,16 +151,10 @@
               <item name="DIG" type="b2602c69:ProjectViewProjectNode" />
               <item name="DIG" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="DIG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DIG" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -194,7 +199,9 @@
       <workItem from="1541416306985" duration="13233000" />
       <workItem from="1541490511967" duration="2429000" />
       <workItem from="1541506819799" duration="156000" />
-      <workItem from="1541509094594" duration="7003000" />
+      <workItem from="1541509094594" duration="7241000" />
+      <workItem from="1541664633297" duration="9528000" />
+      <workItem from="1541683880691" duration="309000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add header and footer without content">
       <created>1541081695988</created>
@@ -224,11 +231,25 @@
       <option name="project" value="LOCAL" />
       <updated>1541515294430</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: add scroll event for line animation">
+      <created>1541516151634</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1541516151634</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fix: script ES version">
+      <created>1541683963553</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1541683963553</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32066000" />
+    <option name="totallyTimeSpent" value="42141000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1533" height="875" extended-state="6" />
@@ -264,7 +285,9 @@
     <MESSAGE value="feat: add first content section&#10;feat: add menu animation&#10;feat: add footer logos" />
     <MESSAGE value="feat: add animated line to the first content section" />
     <MESSAGE value="feat: add second and third content sections with line animation" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add second and third content sections with line animation" />
+    <MESSAGE value="feat: add scroll event for line animation" />
+    <MESSAGE value="fix: script ES version" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: script ES version" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/img/major clients/logo_atco.png" />
@@ -275,21 +298,28 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="53" />
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="210" column="1" lean-forward="true" selection-start-line="210" selection-start-column="1" selection-end-line="210" selection-end-column="1" />
+        <state relative-caret-position="3150">
+          <caret line="210" column="1" selection-start-line="210" selection-start-column="1" selection-end-line="210" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/card.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="68" column="9" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="330">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
         </state>
       </provider>
     </entry>
