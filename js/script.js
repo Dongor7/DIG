@@ -9,14 +9,14 @@ for(let i = 0; i < links.length; i++){
     })
 }
 
-links.forEach(function(link) {
+/*links.forEach(function(link) {
     link.addEventListener('click', function () {
         links.forEach(function(item) {
             item.parentElement.classList.remove('active');
         });
         this.parentElement.classList.add('active');
     })
-});
+});*/
 
 setTimeout(function() {
     document.querySelector('.infrastructure-svg').classList.add('draw');
