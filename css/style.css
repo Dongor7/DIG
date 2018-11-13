@@ -114,42 +114,38 @@ header .sub-menu {
     line-height: 22px;
 }
 
-main {
+.main {
     /*min-height: 978px;*/
     padding-bottom: 220px;
 }
-main:after {
-    content: '';
-    height: 100%;
-}
 
-main,
+.main,
 footer {
     margin-left: 253px
 }
 
-main section {
+.main section {
     height: 768px;
     display: flex;
     position: relative;
     flex-direction: row;
 }
 
-main .section-image,
-main .section-content {
+.main .section-image,
+.main .section-content {
     height: 100%;
 }
 
-main .section-image {
+.main .section-image {
     width: 578px;
 }
 
-main .section-content {
+.main .section-content {
     width: 535px;
     padding: 40px 50px 40px 35px;
 }
 
-main .section-content > .title {
+.main .section-content > .title {
     margin-left: 35px;
     margin-bottom: 45px;
     color: #e87722;
@@ -157,13 +153,13 @@ main .section-content > .title {
     font-size: 24px;
 }
 
-main .section-content .description {
+.main .section-content .description {
     position: relative;
     padding-left: 60px;
     margin-bottom: 65px;
 }
 
-main #infrastructure .section-content .description .text {
+.main #infrastructure .section-content .description .text {
     position: absolute;
     top: 0;
     right: 0;
@@ -172,28 +168,28 @@ main #infrastructure .section-content .description .text {
     font-size: 17px;
 }
 
-main #infrastructure .section-content .fon-text {
+.main #infrastructure .section-content .fon-text {
     font-family: Ubuntu Bold, sans-serif;
     font-size: 57px;
     color: #cdcaca;
 }
 
-main #infrastructure .section-image {
+.main #infrastructure .section-image {
     background: url("../img/aron-van-de-pol-115112-unsplash.jpg") no-repeat center center;
     background-size: auto 769px;
 }
 
-main #solutions .section-image {
+.main #solutions .section-image {
     background: url("../img/samuel-zeller-722370-unsplash.jpg") no-repeat center center;
     background-size: auto 768px;
 }
 
-main #work-with .section-image {
+.main #work-with .section-image {
     background: url("../img/dylan-gillis-533818-unsplash.jpg") no-repeat center center;
     background-size: auto 768px;
 }
 
-main #solutions .description {
+.main #solutions .description {
     margin-top: 122px;
     margin-left: 95px;
     font-family: OpenSans SemiBold, sans-serif;
@@ -201,41 +197,41 @@ main #solutions .description {
     padding-left: 0;
 }
 
-main #solutions .description li {
+.main #solutions .description li {
     list-style: none;
     margin-top: 15px;
 }
 
-main #solutions .description .button {
+.main #solutions .description .button {
     margin-top: 55px;
 }
 
-main #work-with .section-content {
+.main #work-with .section-content {
     padding-right: 39px;
 }
 
-main #work-with .section-content > .title {
+.main #work-with .section-content > .title {
     margin-bottom: 35px;
 }
 
-main #work-with .section-content .description {
+.main #work-with .section-content .description {
     padding-left: 28px;
 }
 
-main #work-with .section-content .description .title {
+.main #work-with .section-content .description .title {
     position: relative;
     font-size: 40px;
     font-family: Ubuntu Bold, sans-serif;
     color: #071d49;
 }
 
-main #work-with .section-content .description .text {
+.main #work-with .section-content .description .text {
     font-family: OpenSans Regular, sans-serif;
     font-size: 14px;
     margin: 10px 34px 33px 8px;
 }
 
-main .button {
+.main .button {
     display: inline-block;
     padding: 15px 0;
     font-size: 14px;
@@ -246,7 +242,7 @@ main .button {
     text-align: center;
 }
 
-main .button:hover {
+.main .button:hover {
     cursor: pointer;
     background-color: #e87722;
 }
