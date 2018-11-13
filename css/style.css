@@ -316,11 +316,11 @@ footer .logos img:not(:last-child) {
     top: 0;
     left: 0;
     fill: none;
-    stroke: #e87722;
+    /*stroke: #e87722;*/
     stroke-width: 8;
 }
 
-.infrastructure-svg {
+/*.infrastructure-svg {
     stroke-dasharray: 1204;
     stroke-dashoffset: 1204;
 }
@@ -333,9 +333,9 @@ footer .logos img:not(:last-child) {
 .work-with-svg {
     stroke-dasharray: 1218;
     stroke-dashoffset: 1218;
-}
+}*/
 
-.infrastructure-svg.draw {
+/*.infrastructure-svg.draw {
     animation: animate 3s linear forwards;
 }
 
@@ -349,9 +349,9 @@ footer .logos img:not(:last-child) {
 
 @keyframes animate {
     to {
-        stroke-dashoffset: 0;
+        stroke-dashoffset: 0px;
     }
-}
+}*/
 
 
 
