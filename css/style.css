@@ -117,6 +117,12 @@ header .sub-menu {
 main {
     /*min-height: 978px;*/
     padding-bottom: 220px;
+    float: right;
+}
+main:after {
+    content: '';
+    height: 100%;
+    clear: both;
 }
 
 main,
@@ -309,50 +315,13 @@ footer .logos img:not(:last-child) {
     }
 }*/
 
-/* SVG */
-
 .svg {
     position: absolute;
     top: 0;
     left: 0;
     fill: none;
-    /*stroke: #e87722;*/
     stroke-width: 8;
 }
-
-/*.infrastructure-svg {
-    stroke-dasharray: 1204;
-    stroke-dashoffset: 1204;
-}
-
-.solutions-svg {
-    stroke-dasharray: 1684;
-    stroke-dashoffset: 1684;
-}
-
-.work-with-svg {
-    stroke-dasharray: 1218;
-    stroke-dashoffset: 1218;
-}*/
-
-/*.infrastructure-svg.draw {
-    animation: animate 3s linear forwards;
-}
-
-.solutions-svg.draw {
-    animation: animate 3s linear forwards;
-}
-
-.work-with-svg.draw {
-    animation: animate 3s linear forwards;
-}
-
-@keyframes animate {
-    to {
-        stroke-dashoffset: 0px;
-    }
-}*/
-
 
 
 
