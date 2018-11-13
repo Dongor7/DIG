@@ -117,12 +117,10 @@ header .sub-menu {
 main {
     /*min-height: 978px;*/
     padding-bottom: 220px;
-    float: right;
 }
 main:after {
     content: '';
     height: 100%;
-    clear: both;
 }
 
 main,
